@@ -18,7 +18,7 @@ const skills = () => {
                         <h2>Blogs Website</h2>
                         <p>This is blogs website. Just try how to use some feature of react.  </p>
 
-                        <a href="https://blogswebsite.vercel.app/" class="learn-more-link">Learn More
+                        <a href="https://blogswebsite.vercel.app/" class="learn-more-link">Click to visit
                             <svg class="arrow-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>
@@ -29,7 +29,7 @@ const skills = () => {
                     <div className="skillBarText">
                         <h2>Restaurant Menu</h2>
                         <p>Our restaurant menu website, beautifully &nbsp;crafted with React to enhance your skills.   </p>
-                        <a href="https://restaurant-23.vercel.app/" class="learn-more-link">Learn More
+                        <a href="https://restaurant-23.vercel.app/" class="learn-more-link">Click to visit
                             <svg class="arrow-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>
@@ -42,7 +42,7 @@ const skills = () => {
                         <p>
                             Creating your resume with our well designed resume templates.
                         </p>
-                        <a href="https://expertcv.netlify.app/" class="learn-more-link">Learn More
+                        <a href="https://expertcv.netlify.app/" class="learn-more-link">Click to visit
                             <svg class="arrow-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
                             </svg>
