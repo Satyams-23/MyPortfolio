@@ -73,7 +73,7 @@
         display: contents;
     }
     #intro{
-        height: calc(70vh - 5rem);
+        height: calc(90vh - 5rem);
         width: 100vw;
         max-width: 75rem;
         margin: 0 auto;
