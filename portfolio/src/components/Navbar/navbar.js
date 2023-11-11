@@ -4,7 +4,9 @@ import { Link } from 'react-scroll';
 // import contactimg from '../../assets/contact.png'
 import logo from '../../assets/logo.png';
 import menu from "../../assets/menu.png"
-// import CVpdf from "../../assets/cv.pdf "
+import CVpdf from "../../assets/cv.pdf"
+import { saveAs } from 'file-saver';
+
 
 
 
@@ -12,20 +14,8 @@ const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
     // Function to handle the download
     const downloadCV = () => {
-        // Replace 'path/to/your/cv.pdf' with the actual path to your CV file
-        const cvPath = '../../assets/cv.pdf';
-
-        // Create a temporary link element
-        const link = document.createElement('a');
-        link.href = cvPath;
-        link.download = 'Satyam_Sharma_CV.pdf'; // You can change the downloaded file name
-        document.body.appendChild(link);
-
-        // Trigger a click on the link to start the download
-        link.click();
-
-        // Remove the link element
-        document.body.removeChild(link);
+        // Trigger the file download
+        saveAs(CVpdf, 'Satyam_Sharma.pdf');
     };
 
     return (
