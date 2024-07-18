@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 // import contactimg from '../../assets/contact.png'
 import logo from '../../assets/logo.png';
 import menu from "../../assets/menu.png"
-import CVpdf from "../../assets/cv.pdf"
+import CVpdf from "../../assets/SATYAM SHARMA (1).pdf"
 import { saveAs } from 'file-saver';
 
 
